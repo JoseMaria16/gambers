@@ -6,8 +6,9 @@ function CardGallery({img}) {
         <div className="p-4 h-[300px] row-span-2 relative bg-gray-400">
             <Image
                 src={img}
-                // width={400}
-                // height={400}
+                 width={400}
+                 height={400}
+                 alt=''
                 layout="fill"
                 objectFit="cover"
             />

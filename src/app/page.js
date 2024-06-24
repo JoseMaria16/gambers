@@ -44,7 +44,7 @@ export default function Home() {
     <div>
       <div className=" mt-14 lg:mt-4 flex flex-col md:flex-row justify-between items-center h-max">
         <div className="flex w-[70%] lg:w-[50%] flex-col ">
-          <h1 className="text-[25px] text-center md:text-3xl  md:mx-auto lg:mx-10 lg:text-start pb-10 w-[100%] lg:5xl font-medium xl:text-6xl lg:w-[100%] lg:-mt-24">"Ponle alas a tus pasos con las mejores zapatillas deportivas”🔥👟</h1>
+          <h1 className="text-[25px] text-center md:text-3xl  md:mx-auto lg:mx-10 lg:text-start pb-10 w-[100%] lg:5xl font-medium xl:text-6xl lg:w-[100%] lg:-mt-24">Ponle alas a tus pasos con las mejores zapatillas deportivas🔥👟</h1>
           <Link className="bg-black hidden lg:flex w-max mx-auto lg:mx-10 text-white px-7 py-3 rounded-full" href={'/'}>Ver Nuestro Instagram  +</Link>
         </div>
         <div className=" lg:w-[50%]">
@@ -129,7 +129,7 @@ export default function Home() {
         </div>
 
         <div className="group transition-all duration-300 hover:bg-gray-400">
-          <img src="https://scontent.flim8-1.fna.fbcdn.net/v/t39.30808-6/382325918_714162890727889_2210599734668088138_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5614bc&_nc_eui2=AeEK-yEc7d86i0ii_SF_nZmPsNL8HvxwiuCw0vwe_HCK4EfdZnm9qtw4c0rDCerBP5zsbjEsg5v_NZJTO1hfjgtx&_nc_ohc=EBRgs0wmVfAAX-8yLxt&_nc_ht=scontent.flim8-1.fna&oh=00_AfCuuIhxTQdKuSycdmqxull76XkwEX4Sm1KF6atK_-O4zQ&oe=651C7987" />
+          <Image alt="" width={500} height={500} src="https://scontent.flim8-1.fna.fbcdn.net/v/t39.30808-6/382325918_714162890727889_2210599734668088138_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5614bc&_nc_eui2=AeEK-yEc7d86i0ii_SF_nZmPsNL8HvxwiuCw0vwe_HCK4EfdZnm9qtw4c0rDCerBP5zsbjEsg5v_NZJTO1hfjgtx&_nc_ohc=EBRgs0wmVfAAX-8yLxt&_nc_ht=scontent.flim8-1.fna&oh=00_AfCuuIhxTQdKuSycdmqxull76XkwEX4Sm1KF6atK_-O4zQ&oe=651C7987" />
         </div>
 
 
@@ -146,5 +146,5 @@ export default function Home() {
 
 
 const ImageCard = ({ img }) => {
-  return <Image src={img} className="group-hover:scale-110 transition-all duration-300 overflow-hidden w-[100%] object-cover h-[100%]" width={400} height={400} objectFit="cover" />
+  return <Image src={img} className="group-hover:scale-110 transition-all duration-300 overflow-hidden w-[100%] object-cover h-[100%]" width={400} height={400} alt="" objectFit="cover" />
 }

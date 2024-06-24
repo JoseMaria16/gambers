@@ -27,6 +27,7 @@ function Header() {
                     className="flex ml-9 sm:mx-auto object-cover"
                     width={100}
                     height={100}
+                    alt=''
                     src={"/logomain.png"} />
                 </div>
                 <nav className={`lg:hidden fixed ${open ? 'left-0': '-left-[1000px]'} h-screen lg:h-max md:w-[50%] w-[70%] lg:sticky top-0 z-10 lg:w-full border-b-2 transition-all duration-300 bg-white border-gray-300 pt-5 mb-5 pb-4`}>
